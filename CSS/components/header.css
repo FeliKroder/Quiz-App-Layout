@@ -1,0 +1,9 @@
+.main__title {
+  padding: 20px;
+  background: #f3f5f9;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}

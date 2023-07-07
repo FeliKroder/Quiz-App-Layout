@@ -1,0 +1,24 @@
+.question-box {
+  padding: 80px;
+  background: #f3f6f935;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+  left: 70px;
+}
+
+.card_bookmark {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: -12px;
+  right: 12px;
+  align-items: center;
+  border-color: transparent;
+  background-color: transparent;
+}
