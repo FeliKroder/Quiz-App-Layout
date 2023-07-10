@@ -12,7 +12,7 @@
   left: 70px;
 }
 
-.card_bookmark {
+/* .card_bookmark {
   display: flex;
   justify-content: flex-end;
   position: absolute;
@@ -21,26 +21,26 @@
   align-items: center;
   border-color: transparent;
   background-color: transparent;
-}
+} */
 
-.bookmark {
+/* .bookmark {
   font-size: 40px;
-}
+} */
 
-.show-answer {
+/* .show-answer {
   border-color: transparent;
   border-radius: 40px;
-}
+} */
 
-.tags {
+/* .tags {
   list-style: none;
   display: flex;
   flex-direction: row;
   position: relative;
   left: -90px;
-}
+} */
 
-.question {
+/* .question {
   font-size: 18px;
   font-family: monospace;
   padding: 10px;
@@ -48,4 +48,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */

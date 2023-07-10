@@ -1,12 +1,18 @@
-nav {
-  padding: 20px;
+.footer_nav {
+  padding: 15px;
   background: #f3f5f9ae;
-  display: flex;
-  justify-content: space-around;
+  width: 100%;
   position: absolute;
   bottom: 0px;
-  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
-/* display: xxx
-gap: 16px */
+/* .home {
+} */
+
+/* .quiz {
+} */
+
+/* .user-profile {
+} */
