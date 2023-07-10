@@ -1,51 +1,62 @@
 .question-box {
-  padding: 80px;
+  color: #ffeded;
+  padding: 60px;
   background: #f3f6f935;
-  width: 250px;
-  height: 200px;
+  width: 350px;
+  height: 320px;
+  border-radius: 30px;
   display: flex;
-  justify-content: center;
+  /* justify-content: space-around; */
   align-items: center;
   flex-direction: column;
-  position: relative;
-  top: 50px;
-  left: 70px;
+  position: absolute;
+  top: 150px;
+  left: 50px;
 }
 
-/* .card_bookmark {
-  display: flex;
-  justify-content: flex-end;
-  position: absolute;
-  top: -27px;
-  right: 12px;
-  align-items: center;
+.card_bookmark {
   border-color: transparent;
   background-color: transparent;
-} */
+  position: absolute;
+  top: -30px;
+  right: 25px;
+}
 
-/* .bookmark {
-  font-size: 40px;
-} */
+.bookmark {
+  font-size: 50px;
+}
 
-/* .show-answer {
-  border-color: transparent;
-  border-radius: 40px;
-} */
+.question {
+  position: relative;
+  top: -20px;
+}
 
-/* .tags {
+.show-answer {
+  font-weight: bold;
+  color: #ce9d9d;
+  border-color: #0d00ff;
+  background: #0d00ff;
+  border-radius: 25px;
+  font-size: 22px;
+  padding: 15px;
+  margin: -5px;
+}
+
+.tags {
   list-style: none;
   display: flex;
-  flex-direction: row;
-  position: relative;
-  left: -90px;
-} */
+  /* justify-content: space-between;  */
+  /* justify... funktioniert nicht !? */
+  gap: 20px;
+  position: absolute;
+  left: 0px;
+  bottom: 10px;
+}
 
-/* .question {
-  font-size: 18px;
-  font-family: monospace;
+.tag {
+  border: solid #0d00ff;
+  background-color: rgba(255, 255, 255, 0.475);
+  color: #0d00ff;
   padding: 10px;
-  width: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+  border-radius: 20px;
+}
