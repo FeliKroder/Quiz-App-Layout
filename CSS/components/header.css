@@ -1,9 +1,13 @@
 .main__title {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
   padding: 20px;
-  background: #f3f5f9;
+  background: #0d00ff;
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 0px;
+  top: -25px;
+  /* why is top position -25px instead of 0? */
   width: 100%;
 }
