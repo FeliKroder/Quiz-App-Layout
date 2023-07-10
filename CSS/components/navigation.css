@@ -1,9 +1,12 @@
-footer {
+nav {
   padding: 20px;
   background: #f3f5f9ae;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   position: absolute;
   bottom: 0px;
   width: 100%;
 }
+
+/* display: xxx
+gap: 16px */
