@@ -16,9 +16,36 @@
   display: flex;
   justify-content: flex-end;
   position: absolute;
-  top: -12px;
+  top: -27px;
   right: 12px;
   align-items: center;
   border-color: transparent;
   background-color: transparent;
+}
+
+.bookmark {
+  font-size: 40px;
+}
+
+.show-answer {
+  border-color: transparent;
+  border-radius: 40px;
+}
+
+.tag {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: -90px;
+}
+
+.question {
+  font-size: 18px;
+  font-family: monospace;
+  padding: 10px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
